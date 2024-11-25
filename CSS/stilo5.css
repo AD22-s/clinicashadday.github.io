@@ -1,0 +1,179 @@
+			/* Cuerpo */
+			body {
+				font-family: "Garamond", cursive;
+				background-color:#F5F1F1;
+				font-size: larger;
+				margin-left: 40px;
+				margin-right: 40px;
+				width:100%;
+			}		
+			/* Cabecera */
+			header{
+				background:#D9D9D9;
+				font-size: larger;
+				padding: 0em;
+				position: fixed;
+				top: 0;
+				left: 0;
+				right:0;
+				width: 100%;
+			}
+			header h1 {
+				text-align: left;
+				margin-bottom: 1em;
+			}
+			/* Imagen logo */			
+			img.imagenlogo {
+				float: auto;
+			}
+
+			h2 {
+				margin: 0em;
+				text-align: center;
+				font-size: large;
+			}
+
+
+			/*Enlaces */	
+			a{
+				text-decoration: none;
+				color:#0D175D;
+			}			
+			
+			/* Menu de navegación principal */			
+			ul.horizontal {
+				background:#D9D9D9;
+				border: 1px solid #7C7C7C;
+				border-radius: 20px;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				
+			}
+			
+			ul.horizontal li {
+				float: left;
+				width: 16.5%;
+			}
+			
+			ul.horizontal li a {
+				color: #333;
+				display: block;
+				padding: .3em;
+				text-decoration: none;
+				/* Si quisiéramos centrar los textos de los menús: */
+				text-align: center;
+				border-left: px solid #FFF;
+				border-right: px solid #7C7C7C;
+			}
+			
+			ul.horizontal li a.sinborde {
+				border-right: none;
+			}
+			/* Inicio Doctora */			
+			h1#arriba {
+				margin-top: 170px;
+				text-align: center;
+				font-size: larger;
+			}
+
+			/* Imagen principal de la doctora */			
+			div.contenedor {
+				background-color: #D9D9D9;
+				width:30%;
+				margin: 0;
+				margin-top: 1em;
+				padding: 1em;
+				padding-bottom: 0.01em;
+			}
+			/* imagen de medico */
+			img.imagen1 {
+				float: left;
+				margin-right: 0em;
+				margin-bottom: 0em;
+			}
+			/* contenedor de imagenes y texto*/
+			#contenedor {
+			  display: flex;
+			  flex-direction: row;
+			  flex-wrap: wrap;
+			  border:solid  #FFF;
+			  border-radius: 15px;
+			}
+			#principal {
+			  width: 50%;
+			}
+			#texto {
+			  margin-top: auto;
+			  width: 50%;
+			  font-size:x-large;
+			}
+		/* contenedor de menú y servicios*/
+			#contenedor2 {
+			  display: flex;
+			  flex-direction: row;
+			  flex-wrap: wrap;
+			  margin: auto;
+			}
+			#menu {
+			  width: 40%;
+			  font-size:x-large;
+			  text-align: center;
+			  margin: auto;
+			}
+			#imagenes {
+			  width:40%;
+			  display:center;
+			  
+			}			
+
+			/* Menú vertical */
+			
+			ul.vertical {
+				width: 400px;
+				align-items: center;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				border-bottom: none;
+			}
+			
+			ul.vertical li {
+				border-bottom: 0px solid #7C7C7C;
+				border-radius: 10px;
+				border-top: 1px solid #FFF;
+			}
+			
+			ul.vertical li a {
+				color: #333;
+				font-size:xx-large;
+				text-align:center;
+				display: block;
+				padding: .2em 0 .2em .5em;
+				text-decoration: none;
+			}	
+
+			summary{
+				font-size:x-large;
+				text-align:center;
+				
+			}
+			.boton {
+			margin-top: 25px;
+			text-align: center;
+			border: 3px solid #FFF;
+			border-radius: 20px;
+			font-size: larger;
+			width: 100%;
+			}
+
+			/*Bajo de la pagina */	
+			div.bajo {
+				background-color:#D9D9D9;
+				color:#474242;
+				text-align: center;
+				width: 100%;
+				height: 100px;
+				margin: auto;
+			}
